@@ -1,6 +1,7 @@
 package frontend;
 
 // uppfyller Template design pattern - eventuellt kolla om fler uppfylls?
+//
 
 interface PostInterface {
          String text = "";
