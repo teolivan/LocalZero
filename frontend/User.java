@@ -55,5 +55,10 @@ public class User {
         controller.createChat();
     }
 
+    public void updatePost() {
+        System.out.println("updating post");
+        controller.updatePost();
+    }
+
 
 }

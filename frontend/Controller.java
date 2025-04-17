@@ -52,4 +52,7 @@ public class Controller{
 
     public void createChat() {
     }
+
+    public void updatePost() {
+    }
 }
