@@ -1,3 +1,7 @@
+package com.example.LocalZero.frontend;
+
+import java.util.List;
+
 public class User {
     private String id;
     private String password;
