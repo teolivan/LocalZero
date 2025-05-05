@@ -1,16 +1,24 @@
 package frontend;
-
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * User class for users of the application. Users can be either online or offline.
+ * @author Olivia Svensson, ...
+ * */
+
 public class User {
-    private String id;
+    private String userID;
     private String password;
+    private String email;
+    private int locationID;
+    private Action[] actions;
+    private Iniative[] initiatives;
     private List<User> friendList;
     Controller controller;
 
-    public User(String id, String password, Controller controller) {
-        this.id = id;
+    public User(String userID, String password, Controller controller) {
+        this.userID = userID;
         this.password = password;
         friendList = new ArrayList<User>();
         this.controller = controller;
@@ -29,7 +37,7 @@ public class User {
 
     public String post() {
         System.out.println("post");
-        controller.post(this.id);
+        controller.post(this.userID, this);
         return null;
     }
 
