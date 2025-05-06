@@ -1,4 +1,7 @@
 package frontend;
+
+import java.util.Date;
+
 /**
  * Interface for different activities.
  * @author Olivia Svensson, ...
@@ -6,4 +9,8 @@ package frontend;
 
 public interface Activity {
     // add stuff here
+
+    public void startActivity(Date date);
+
+    public void stopActivity(Date date);
 }

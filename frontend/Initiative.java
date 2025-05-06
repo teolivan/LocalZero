@@ -93,4 +93,14 @@ public class Initiative implements Activity {
         this.title = title;
     }
 
+    //need to think through the logic here a bit more
+    @Override
+    public void startActivity(Date date) {
+        start = date;
+    }
+
+    @Override
+    public void stopActivity(Date date) {
+        end = date;
+    }
 }

@@ -6,6 +6,7 @@ import java.util.Objects;
 /*
  * denna classen är en controller klass. Kan funka som en mediator -- vi uppfyller då Mediator design pattern.
  * singleton design pattern ? kolla upp. Iom bara en controller.
+ * Controller class handles all logic connected to users.
  *  @author Olivia Svensson, ...
  * */
 
@@ -14,7 +15,7 @@ public class Controller implements Mediator{
 
     Mediator controller = new Controller(); //dubbelkolla
     public Controller(){
-        users = new List<User>(); //fixa, bara placeholder atm
+        users = new HashMap<>(); //fixa, bara placeholder atm
     }
 
     public String post(String id, User user) {
@@ -29,7 +30,7 @@ public class Controller implements Mediator{
 
                  // lägg till logik hur man får tag på usern här;
 
-                String response = user.post();
+                response = user.post();
                 if(Objects.equals(response, "success")) {
                     System.out.println("Successfull post");
                 } else if (Objects.equals(response, "error")) {
@@ -58,5 +59,9 @@ public class Controller implements Mediator{
     }
 
     public void updatePost() {
+    }
+
+    public void createUser() {
+
     }
 }

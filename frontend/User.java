@@ -68,5 +68,9 @@ public class User {
         controller.updatePost();
     }
 
+    public void register() {
+        controller.createUser();
+    }
+
 
 }
