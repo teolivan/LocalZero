@@ -1,4 +1,4 @@
-package frontend;
+package entity;
 
 // uppfyller Template design pattern - eventuellt kolla om fler uppfylls?
 //

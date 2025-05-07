@@ -1,4 +1,4 @@
-package frontend;
+package entity;
 
 /**
  * This is an enum for the categories an Initiative can be classified as. They are based on the 17 global sustainability

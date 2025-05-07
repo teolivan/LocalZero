@@ -1,4 +1,4 @@
-package frontend;
+package entity;
 
 /**
  * Class which represents an action. An action can be made by a User.

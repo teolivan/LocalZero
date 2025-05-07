@@ -1,12 +1,12 @@
-package frontend;
+package entity;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Objects;
 
 /*
  * denna classen är en controller klass. Kan funka som en mediator -- vi uppfyller då Mediator design pattern.
  * singleton design pattern ? kolla upp. Iom bara en controller.
  * Controller class handles all logic connected to users.
+ * ska kommunicera med en boundary class (boundaryklassen kommunicerar sen med API)
  *  @author Olivia Svensson, ...
  * */
 

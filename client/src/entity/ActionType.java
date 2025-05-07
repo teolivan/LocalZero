@@ -2,7 +2,7 @@
 * @author Olivia Svensson, ...
 * */
 
-package frontend;
+package entity;
 
 public enum ActionType {
     BIKING,

@@ -1,4 +1,4 @@
-package frontend;
+package entity;
 
 import java.util.Date;
 
