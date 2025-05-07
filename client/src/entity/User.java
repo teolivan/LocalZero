@@ -1,9 +1,12 @@
 package entity;
+import controller.Controller;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * User class for users of the application. Users can be either online or offline.
+ * singleton dp
  * @author Olivia Svensson, ...
  * */
 

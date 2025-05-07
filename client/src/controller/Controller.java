@@ -1,4 +1,6 @@
-package entity;
+package controller;
+import entity.User;
+
 import java.util.HashMap;
 import java.util.Objects;
 
@@ -6,11 +8,12 @@ import java.util.Objects;
  * denna classen är en controller klass. Kan funka som en mediator -- vi uppfyller då Mediator design pattern.
  * singleton design pattern ? kolla upp. Iom bara en controller.
  * Controller class handles all logic connected to users.
+ * Mediator
  * ska kommunicera med en boundary class (boundaryklassen kommunicerar sen med API)
  *  @author Olivia Svensson, ...
  * */
 
-public class Controller implements Mediator{
+public class Controller implements Mediator {
     HashMap<String, Integer> users;
 
     Mediator controller = new Controller(); //dubbelkolla

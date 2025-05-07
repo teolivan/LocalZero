@@ -5,7 +5,7 @@ import javax.swing.*;
 import java.util.Date;
 
 /**
- * Class for initiatives. Each initiative is creater by a User and can be seen by other users.
+ * Class for initiatives. Each initiative is created by a User and can be seen by other users.
  * @author Olivia Svensson, ...
  * */
 public class Initiative implements Activity {
