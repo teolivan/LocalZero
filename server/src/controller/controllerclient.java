@@ -1,4 +1,5 @@
 package controller;
+
 import entity.User;
 
 import java.util.HashMap;
@@ -13,11 +14,11 @@ import java.util.Objects;
  *  @author Olivia Svensson, ...
  * */
 
-public class Controller implements Mediator {
+public class controllerclient implements Mediator {
     HashMap<String, Integer> users;
 
-    Mediator controller = new Controller(); //dubbelkolla
-    public Controller(){
+    Mediator controller = new controllerclient(); //dubbelkolla
+    public controllerclient(){
         users = new HashMap<>(); //fixa, bara placeholder atm
     }
 

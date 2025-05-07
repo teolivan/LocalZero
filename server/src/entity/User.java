@@ -1,5 +1,5 @@
 package entity;
-import controller.Controller;
+import controller.controllerclient;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,9 +18,9 @@ public class User {
     private Action[] actions;
     private Iniative[] initiatives;
     private List<User> friendList;
-    Controller controller;
+    controllerclient controller;
 
-    public User(String userID, String password, Controller controller) {
+    public User(String userID, String password, controllerclient controller) {
         this.userID = userID;
         this.password = password;
         friendList = new ArrayList<User>();
