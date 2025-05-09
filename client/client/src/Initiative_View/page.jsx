@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef, useState } from "react";
 import Sidebar from "../components/sidebar";
+import CommentBox from "../components/commentBox";
 
 function InitiativeView() {
   const [commentText, setComment] = useState("");
@@ -32,7 +33,7 @@ function InitiativeView() {
         </div>
       </div>
 
-      <div className="pl-[3%] pt-[5%] pr-[7.5%] bg-white border-r-2 border-black w-[45%]">
+      <div className="pl-[3%] pt-[5%] pr-[7.5%] bg-white border-r-2 border-black w-[45%] ">
         <p className="text-2xl">Comments</p>
         <div className="bg-gray-100 mt-6 p-4 rounded">
           <input
@@ -48,92 +49,32 @@ function InitiativeView() {
             </button>
           </div>
         </div>
+
+        <div className="overflow-y-scroll pr-1 h-[73%]
+        [&::-webkit-scrollbar]:w-2
+        [&::-webkit-scrollbar-track]:rounded-full
+        [&::-webkit-scrollbar-track]:bg-gray-100
+        [&::-webkit-scrollbar-thumb]:rounded-full
+        [&::-webkit-scrollbar-thumb]:bg-gray-300
+        dark:[&::-webkit-scrollbar-track]:bg-white
+        dark:[&::-webkit-scrollbar-thumb]:bg-gray-300">
+           <CommentBox/>
+        <CommentBox/>
+        <CommentBox/>
+        <CommentBox/>
+        <CommentBox/>
+        <CommentBox/>
+        <CommentBox/>
+        <CommentBox/>
+        <CommentBox/>
+        <CommentBox/>
+        <CommentBox/>
+        <CommentBox/>
+        <CommentBox/>
+
+        </div>
         
-        <div className="bg-gray-100 mt-6 p-4 rounded w-full">
-          <div className="flex justify-between mb-2">
-            
-            <div>
-              <p>[username]</p>
-            </div>
-            
-            <div>
-              <p>date: yy/mm/dd</p>
-            </div>
-          </div>
-
-          <div>
-            <p>[comment]</p>
-          </div>
-          
-        </div>
-        <div className="bg-gray-100 mt-6 p-4 rounded w-full">
-          <div className="flex justify-between mb-2">
-            
-            <div>
-              <p>[username]</p>
-            </div>
-            
-            <div>
-              <p>date: yy/mm/dd</p>
-            </div>
-          </div>
-
-          <div>
-            <p>[comment]</p>
-          </div>
-          
-        </div>
-        <div className="bg-gray-100 mt-6 p-4 rounded w-full">
-          <div className="flex justify-between mb-2">
-            
-            <div>
-              <p>[username]</p>
-            </div>
-            
-            <div>
-              <p>date: yy/mm/dd</p>
-            </div>
-          </div>
-
-          <div>
-            <p>[comment]</p>
-          </div>
-          
-        </div>
-        <div className="bg-gray-100 mt-6 p-4 rounded w-full">
-          <div className="flex justify-between mb-2">
-            
-            <div>
-              <p>[username]</p>
-            </div>
-            
-            <div>
-              <p>date: yy/mm/dd</p>
-            </div>
-          </div>
-
-          <div>
-            <p>[comment]</p>
-          </div>
-          
-        </div>
-        <div className="bg-gray-100 mt-6 p-4 rounded w-full">
-          <div className="flex justify-between mb-2">
-            
-            <div>
-              <p>[username]</p>
-            </div>
-            
-            <div>
-              <p>date: yy/mm/dd</p>
-            </div>
-          </div>
-
-          <div>
-            <p>[comment]</p>
-          </div>
-          
-        </div>
+       
       </div>
     </div>
   );
