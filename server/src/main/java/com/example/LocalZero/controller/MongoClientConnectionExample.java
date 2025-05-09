@@ -11,7 +11,7 @@ import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
 
 public class MongoClientConnectionExample {
-    public void connectDb() {
+    public static void main(String[] args) {
         String connectionString = "mongodb+srv://user:localzero@cluster0.wox2kxx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
         ServerApi serverApi = ServerApi.builder()
