@@ -1,5 +1,6 @@
 package com.example.LocalZero;
 
+import com.example.LocalZero.controller.MongoClientConnectionExample;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
