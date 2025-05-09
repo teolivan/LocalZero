@@ -17,7 +17,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
-    <NewAction/>
+    <HomePage/>
     
     {/* <HomePage/>
     <LandingPage/>
