@@ -24,6 +24,16 @@ public class InitAPIHandler {
     public ResponseEntity<String> getInitsID(@RequestParam String id) {
         return ResponseEntity.ok("get inits id successfull");
     }
+
+    @PutMapping("/inits/{id}")
+    public ResponseEntity<String> putInitsID(@RequestParam String id) {
+        return ResponseEntity.ok("put inits id successfull");
+    }
+
+    @PostMapping("/inits/{id}")
+    public ResponseEntity<String> postInitsID(@RequestBody String body) {
+        return ResponseEntity.ok("post inits id successful");
+    }
 }
 
 
