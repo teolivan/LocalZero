@@ -34,7 +34,7 @@ function LandingPage() {
       
       {/*Left Side: Signup */}
       <div className="min-w-[50%] min-h-screen flex bg-zinc-100 items-center justify-center">
-        <div className="space-y-4 w-[60%] h-[70%] ">
+        <div className="space-y-4 w-[60%] h-[70%]">
           <p>Signup with a new account</p>
 
           <div className="space-y-2 w-[90%]">

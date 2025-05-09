@@ -2,7 +2,7 @@
 import React, { useRef, useState } from "react";
 import SideBar from "../components/sidebar";
 
-function MyActions() {
+function InboxPage() {
   
     return (
       <div className="flex min-w-screen max-w-screen min-h-screen max-h-screen bg-zinc-800 font-light text-sm">
@@ -14,5 +14,5 @@ function MyActions() {
     );
   }
   
-  export default MyActions;
+  export default InboxPage;
   
